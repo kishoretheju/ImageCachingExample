@@ -23,8 +23,8 @@
 		321681ED19FA9CD300CA6ABA /* ImageCachingExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 321681EC19FA9CD300CA6ABA /* ImageCachingExampleTests.m */; };
 		3248269919FA9DD200BBEF10 /* KTMImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3248269819FA9DD200BBEF10 /* KTMImageViewController.m */; };
 		3248269A19FA9DD200BBEF10 /* KTMImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3248269819FA9DD200BBEF10 /* KTMImageViewController.m */; };
-		3248269D19FAA02F00BBEF10 /* KTMImageCaching.m in Sources */ = {isa = PBXBuildFile; fileRef = 3248269C19FAA02F00BBEF10 /* KTMImageCaching.m */; };
-		3248269E19FAA02F00BBEF10 /* KTMImageCaching.m in Sources */ = {isa = PBXBuildFile; fileRef = 3248269C19FAA02F00BBEF10 /* KTMImageCaching.m */; };
+		324826A219FAA3B600BBEF10 /* KTMImageCaching.m in Sources */ = {isa = PBXBuildFile; fileRef = 324826A119FAA3B600BBEF10 /* KTMImageCaching.m */; };
+		324826A319FAA3B600BBEF10 /* KTMImageCaching.m in Sources */ = {isa = PBXBuildFile; fileRef = 324826A119FAA3B600BBEF10 /* KTMImageCaching.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,8 @@
 		321681EC19FA9CD300CA6ABA /* ImageCachingExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCachingExampleTests.m; sourceTree = "<group>"; };
 		3248269719FA9DD200BBEF10 /* KTMImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTMImageViewController.h; sourceTree = "<group>"; };
 		3248269819FA9DD200BBEF10 /* KTMImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTMImageViewController.m; sourceTree = "<group>"; };
-		3248269B19FAA02F00BBEF10 /* KTMImageCaching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTMImageCaching.h; sourceTree = "<group>"; };
-		3248269C19FAA02F00BBEF10 /* KTMImageCaching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTMImageCaching.m; sourceTree = "<group>"; };
+		324826A019FAA3B600BBEF10 /* KTMImageCaching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTMImageCaching.h; sourceTree = "<group>"; };
+		324826A119FAA3B600BBEF10 /* KTMImageCaching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTMImageCaching.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +120,7 @@
 		321681C719FA9CD300CA6ABA /* ImageCachingExample */ = {
 			isa = PBXGroup;
 			children = (
+				3248269F19FAA39600BBEF10 /* Image Caching Class */,
 				321681D019FA9CD300CA6ABA /* KTMAppDelegate.h */,
 				321681D119FA9CD300CA6ABA /* KTMAppDelegate.m */,
 				321681D319FA9CD300CA6ABA /* Main.storyboard */,
@@ -127,8 +128,6 @@
 				321681D719FA9CD300CA6ABA /* KTMViewController.m */,
 				3248269719FA9DD200BBEF10 /* KTMImageViewController.h */,
 				3248269819FA9DD200BBEF10 /* KTMImageViewController.m */,
-				3248269B19FAA02F00BBEF10 /* KTMImageCaching.h */,
-				3248269C19FAA02F00BBEF10 /* KTMImageCaching.m */,
 				321681D919FA9CD300CA6ABA /* Images.xcassets */,
 				321681C819FA9CD300CA6ABA /* Supporting Files */,
 			);
@@ -162,6 +161,15 @@
 				321681E919FA9CD300CA6ABA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3248269F19FAA39600BBEF10 /* Image Caching Class */ = {
+			isa = PBXGroup;
+			children = (
+				324826A019FAA3B600BBEF10 /* KTMImageCaching.h */,
+				324826A119FAA3B600BBEF10 /* KTMImageCaching.m */,
+			);
+			path = "Image Caching Class";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3248269D19FAA02F00BBEF10 /* KTMImageCaching.m in Sources */,
+				324826A219FAA3B600BBEF10 /* KTMImageCaching.m in Sources */,
 				321681CE19FA9CD300CA6ABA /* main.m in Sources */,
 				3248269919FA9DD200BBEF10 /* KTMImageViewController.m in Sources */,
 				321681D219FA9CD300CA6ABA /* KTMAppDelegate.m in Sources */,
@@ -275,7 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				321681ED19FA9CD300CA6ABA /* ImageCachingExampleTests.m in Sources */,
-				3248269E19FAA02F00BBEF10 /* KTMImageCaching.m in Sources */,
+				324826A319FAA3B600BBEF10 /* KTMImageCaching.m in Sources */,
 				3248269A19FA9DD200BBEF10 /* KTMImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
