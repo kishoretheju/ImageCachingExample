@@ -2,7 +2,7 @@
 //  KTMImageCaching.m
 //
 //  Created by Kishore Thejasvi on 05/10/14.
-//  Copyright (c) 2014 Cleartrip. All rights reserved.
+//  Copyright (c) 2014 Kishore Thejasvi. All rights reserved.
 //
 
 #define kPathToTemporaryDirectory NSTemporaryDirectory()
