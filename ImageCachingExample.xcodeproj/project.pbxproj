@@ -21,6 +21,10 @@
 		321681E319FA9CD300CA6ABA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321681C519FA9CD300CA6ABA /* UIKit.framework */; };
 		321681EB19FA9CD300CA6ABA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 321681E919FA9CD300CA6ABA /* InfoPlist.strings */; };
 		321681ED19FA9CD300CA6ABA /* ImageCachingExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 321681EC19FA9CD300CA6ABA /* ImageCachingExampleTests.m */; };
+		3248269919FA9DD200BBEF10 /* KTMImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3248269819FA9DD200BBEF10 /* KTMImageViewController.m */; };
+		3248269A19FA9DD200BBEF10 /* KTMImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3248269819FA9DD200BBEF10 /* KTMImageViewController.m */; };
+		3248269D19FAA02F00BBEF10 /* KTMImageCaching.m in Sources */ = {isa = PBXBuildFile; fileRef = 3248269C19FAA02F00BBEF10 /* KTMImageCaching.m */; };
+		3248269E19FAA02F00BBEF10 /* KTMImageCaching.m in Sources */ = {isa = PBXBuildFile; fileRef = 3248269C19FAA02F00BBEF10 /* KTMImageCaching.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		321681E819FA9CD300CA6ABA /* ImageCachingExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageCachingExampleTests-Info.plist"; sourceTree = "<group>"; };
 		321681EA19FA9CD300CA6ABA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		321681EC19FA9CD300CA6ABA /* ImageCachingExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCachingExampleTests.m; sourceTree = "<group>"; };
+		3248269719FA9DD200BBEF10 /* KTMImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTMImageViewController.h; sourceTree = "<group>"; };
+		3248269819FA9DD200BBEF10 /* KTMImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTMImageViewController.m; sourceTree = "<group>"; };
+		3248269B19FAA02F00BBEF10 /* KTMImageCaching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTMImageCaching.h; sourceTree = "<group>"; };
+		3248269C19FAA02F00BBEF10 /* KTMImageCaching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTMImageCaching.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +125,10 @@
 				321681D319FA9CD300CA6ABA /* Main.storyboard */,
 				321681D619FA9CD300CA6ABA /* KTMViewController.h */,
 				321681D719FA9CD300CA6ABA /* KTMViewController.m */,
+				3248269719FA9DD200BBEF10 /* KTMImageViewController.h */,
+				3248269819FA9DD200BBEF10 /* KTMImageViewController.m */,
+				3248269B19FAA02F00BBEF10 /* KTMImageCaching.h */,
+				3248269C19FAA02F00BBEF10 /* KTMImageCaching.m */,
 				321681D919FA9CD300CA6ABA /* Images.xcassets */,
 				321681C819FA9CD300CA6ABA /* Supporting Files */,
 			);
@@ -250,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3248269D19FAA02F00BBEF10 /* KTMImageCaching.m in Sources */,
 				321681CE19FA9CD300CA6ABA /* main.m in Sources */,
+				3248269919FA9DD200BBEF10 /* KTMImageViewController.m in Sources */,
 				321681D219FA9CD300CA6ABA /* KTMAppDelegate.m in Sources */,
 				321681D819FA9CD300CA6ABA /* KTMViewController.m in Sources */,
 			);
@@ -261,6 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				321681ED19FA9CD300CA6ABA /* ImageCachingExampleTests.m in Sources */,
+				3248269E19FAA02F00BBEF10 /* KTMImageCaching.m in Sources */,
+				3248269A19FA9DD200BBEF10 /* KTMImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +477,7 @@
 				321681F219FA9CD300CA6ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		321681F319FA9CD300CA6ABA /* Build configuration list for PBXNativeTarget "ImageCachingExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +486,7 @@
 				321681F519FA9CD300CA6ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

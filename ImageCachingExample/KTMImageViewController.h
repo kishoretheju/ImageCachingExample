@@ -1,5 +1,5 @@
 //
-//  KTMViewController.h
+//  KTMImageViewController.h
 //  ImageCachingExample
 //
 //  Created by Kishore Thejasvi on 24/10/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KTMViewController : UITableViewController
+@interface KTMImageViewController : UIViewController
 
 @end
